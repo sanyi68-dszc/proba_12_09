@@ -8,3 +8,21 @@
     from {background-color: red;}
     to {background-color: yellow;}
   }
+
+.square{
+    height:10px;
+    width:10px;
+    background-color: black;
+    animation-name: squaresizeAndRotation;
+    animation-duration: 4s;
+}
+@keyframes squaresizeAndRotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(127deg);
+        width: 100px;
+        height:  75px;
+    }
+  }
