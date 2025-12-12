@@ -15,6 +15,9 @@ const menuSor=`<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <li class="nav-item">
         <a class="nav-link" href="menu2.html">Menü 2.</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu3.html">Menü 3.</a>
+      </li>
     </ul>
   </div>
 </div>
