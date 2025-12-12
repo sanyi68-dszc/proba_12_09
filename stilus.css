@@ -3,11 +3,6 @@
     animation-name: myAnimation;
     animation-duration: 4s;
   }
-  
-  @keyframes myAnimation {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
 
 .square{
     height:10px;
@@ -16,6 +11,7 @@
     animation-name: squaresizeAndRotation;
     animation-duration: 4s;
 }
+
 @keyframes squaresizeAndRotation {
     from {
         transform: rotate(0deg);
@@ -25,4 +21,9 @@
         width: 100px;
         height:  75px;
     }
+  }
+
+  @keyframes myAnimation {
+    from {background-color: red;}
+    to {background-color: yellow;}
   }
