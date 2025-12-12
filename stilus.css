@@ -23,7 +23,7 @@
     }
   }
 
-  @keyframes myAnimation {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
+@keyframes myAnimation {
+  from {background-color: darkgreen;}
+  to {background-color: lightgreen;}
+}
