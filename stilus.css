@@ -1,6 +1,4 @@
 .sorokbg {
-    width: 100px;
-    height: 100px;
     background-color: red;
     animation-name: myAnimation;
     animation-duration: 4s;
