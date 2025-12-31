@@ -1,29 +1,9 @@
-.sorokbg {
-    background-color: red;
-    animation-name: myAnimation;
-    animation-duration: 4s;
-  }
-
-.square{
-    height:10px;
-    width:10px;
-    background-color: black;
-    animation-name: squaresizeAndRotation;
-    animation-duration: 4s;
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #5d7aa8;
 }
-
-@keyframes squaresizeAndRotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(127deg);
-        width: 100px;
-        height:  75px;
-    }
-  }
-
-@keyframes myAnimation {
-  from {background-color: darkgreen;}
-  to {background-color: lightgreen;}
+a{
+  color: black;
+  font-size: 35px;
+  text-align: center;
 }
